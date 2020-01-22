@@ -1,6 +1,7 @@
 import re
 from pprint import pprint
 
+
 texto = '''
 ONLINE  192.168.0.1 GHIJK active
 OFFLINE  192.168.0.2 GHIJK inactive
