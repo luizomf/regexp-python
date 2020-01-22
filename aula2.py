@@ -2,6 +2,7 @@
 # | OU
 # . Qualquer caractere (com exceção da quebra de linha)
 # [] conjunto de caracteres
+
 import re
 
 texto = '''
