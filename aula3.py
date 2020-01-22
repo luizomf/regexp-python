@@ -9,6 +9,7 @@
 # {10} Especificamente 10
 # {5,10} De 5 a 10
 # ()+ [a-zA-Z0-9]+
+
 import re
 
 texto = '''
