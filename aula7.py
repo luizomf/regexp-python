@@ -8,7 +8,6 @@
 # \S -> [^ \r\n\f\n\t]
 # \b -> borda
 # \B -> não borda
-
 import re
 
 texto = '''
