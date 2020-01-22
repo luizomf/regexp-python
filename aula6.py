@@ -3,6 +3,7 @@
 # $ -> termina com
 # [^a-z] -> Negação
 
+
 import re
 
 cpf = '147.852.963-12'
