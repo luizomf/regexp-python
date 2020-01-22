@@ -2,7 +2,6 @@
 # re.I -> IGNORECASE
 # re.M -> Multiline -> ^ $
 # re.S -> Dotall \n
-
 import re
 
 texto = '''
