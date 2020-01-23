@@ -52,6 +52,7 @@ def create_pass(
 
 
 if __name__ == '__main__':
+
     print('VÁLIDAS')
     for i in range(5):
         print(create_pass(
