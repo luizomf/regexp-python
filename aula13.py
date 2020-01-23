@@ -1,7 +1,6 @@
 # https://regex101.com/r/W4kRV2/2/
 # https://en.wikipedia.org/wiki/List_of_Unicode_characters
 import re
-
 senha_forte_regexp = re.compile(
     r'^'
     r'(?=.*[a-z])'
