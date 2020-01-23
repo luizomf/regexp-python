@@ -15,13 +15,14 @@ def A_a_Z():
 
 def strange_chars():
     rand_range = [
-        randint(32, 47),  # \u0020-\u002F
-        randint(58, 64),  # \u003A-\u0040
-        randint(91, 96),  # \u005B-\u0060
-        randint(123, 126),  # \u007B-\u007E
+        randint(32, 47),  # \u0020-\u002F [ -\/]
+        randint(58, 64),  # \u003A-\u0040 [:-@]
+        randint(91, 96),  # \u005B-\u0060 [[-`]
+        randint(123, 126),  # \u007B-\u007E [{-~]
     ]
 
     # [\u0020-\u002F\u003A-\u0040\u005B-\u0060\u007B-\u007E]
+    # [ -\/:-@[-`{-~]
 
     return chr(choice(rand_range))
 
